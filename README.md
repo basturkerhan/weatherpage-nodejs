@@ -5,8 +5,7 @@ In the weather area, you can see current temperature, weather description, max t
 When the page is first loaded, it will ask for permission to access your location information. Because on first load, page will access your current city name and it will show current city weather.
 
 ------SETUP------
-Please go to http://openweathermap.org/appid address and get your free openweather id. (src/index.js=>appId)
-Please go to https://locationiq.com/ address and get your free locationIQ key. (src/index.js=>locationIQ_key)
+Please go to http://openweathermap.org/appid address and get your free openweather id and go to https://locationiq.com/ address and get your free locationIQ key. (src/index.js=>appId),(src/index.js=>locationIQ_key)
 
 npm install -> To create the node_modules folder
 npm install openweather-apis
